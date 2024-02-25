@@ -1,20 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import { Slide } from "react-awesome-reveal";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Ilona Poltavets</h1>
-      </header>
-      <main>
-        
-      </main>
-      <footer>
-        
-      </footer>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <Slide triggerOnce>
+        <ul >
+          <li> Item 1 </li>
+          <li> Item 2 </li>
+          <li> Item 3 </li>
+          <li> Item 4 </li>
+        </ul>
+      </Slide>
+    );
+  }
 }
 
-export default App;
+export default App ;
