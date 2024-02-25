@@ -12,3 +12,17 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+main{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0077ff;
+}
+
+.framer-motion div{
+  background: white;
+  border-radius: 30px;
+  width: 150px;
+  height: 150px;
+}
